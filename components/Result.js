@@ -2,7 +2,9 @@ import React, { useEffect, useState } from "react";
 import { View, StyleSheet, Text } from "react-native";
 
 const Result = (props) => {
-  const [styleColor, setstyleColor] = useState("white");
+  const [styleColor, setstyleColor] = useState({
+    color: "white",
+  });
 
   useEffect(() => {
     if (props.text === "YOU LOSE") {
