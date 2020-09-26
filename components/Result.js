@@ -3,7 +3,7 @@ import { View, StyleSheet, Text } from "react-native";
 
 const Result = (props) => {
   const [styleColor, setstyleColor] = useState({
-    color: "white",
+    color: "#000000",
   });
 
   useEffect(() => {
